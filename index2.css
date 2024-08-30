@@ -1,0 +1,148 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+.navb{
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(187, 34, 67);
+}
+.navmenu{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    
+}
+
+.crsl{
+    height: 700px;
+    display: flex;
+    align-items: center;
+    border: 2px solid black;
+    justify-content: center;
+    background-size: cover;
+    background-position: center;
+    animation: changeBackground 10s infinite alternate;
+    transition: background-image 1s ease-in-out;
+    
+}
+@keyframes changeBackground{
+    0% {
+        background-image: url('images.jpg');
+    }
+    25% {
+        background-image: url('images1.jpg');
+    }
+    50% {
+        background-image: url('images2.jpg');
+    }
+    75% {
+        background-image: url('images3.jpg');
+    }
+    100% {
+        background-image: url('images4.jpg');
+    }
+}
+form{
+    height: 600px;
+    width: 600px;
+    box-shadow: inset -3px -3px rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(50px);
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: larger;
+    position: absolute;
+    right: 25px;
+    border: 50px white;
+}
+.review{
+    height: 600px;
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid black;
+    border-radius: 25px; 
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.rev1{
+    height: 300px;
+    width: 300px;
+    border: 5px solid black;
+    border-radius: 50%;
+}
+#aboutus{
+    height: 400px;
+    margin: 10px;
+    padding: 10px;
+    border: 5px solid black;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.mem{
+    height: 150px;
+    width: 150px;
+    border: 2px solid black;
+    border-radius: 50%;
+    margin: 50px;
+}
+.sos{
+    height: 400px;
+    width: 400px;
+    border: 5px solid black;
+    border-radius: 50%;
+    margin: 50px;
+}
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#contactus{
+    margin: 50px;
+}
+footer{
+    text-align: center;
+}
+input{
+    height: 50px;
+    width: 350px;
+    border-radius: 2rem;
+    text-align: center;
+    font-size: 24px;
+    background-color: greenyellow;
+    opacity: 0.5;
+    border: 5px solid white;
+}
+a{
+    font-size: 25px;
+    color: rgb(224, 255, 255);
+    text-decoration: none;
+    border-radius: 2rem;
+    text-align: center;
+    
+    
+}
+a:hover{
+    background-color: blue;
+}
+.rev{
+    font-size: 26px;
+    text-align: center;
+    flex: 1;
+}
+#quote{
+    position: absolute;
+    left: 25px;
+    font-size: 60px;
+    color: rgb(155, 82, 9);
+
+}
