@@ -134,7 +134,7 @@ input{
     background-color: greenyellow;
     opacity: 0.5;
     border: 5px solid white;
-    color: white;
+    
 }
 a{
     font-size: 1.5rem;
@@ -162,4 +162,9 @@ a:hover{
     font-size: 3rem;
     color: black;
 
+}
+label{
+    font-size: x-large;
+    color: antiquewhite;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
