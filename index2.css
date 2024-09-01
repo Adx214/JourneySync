@@ -1,14 +1,18 @@
 *{
     margin: 0px;
     padding: 0px;
+    box-sizing: border-box;
 
 }
+.headerF{
+    background-color: rgb(187, 34, 67);
+}
 .navb{
-    height: 75px;
+    height: 3.5rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: rgb(187, 34, 67);
+    margin: 0 1rem;
 }
 .navmenu{
     display: flex;
@@ -18,7 +22,7 @@
 }
 
 .crsl{
-    height: 700px;
+    height: 80vh;
     display: flex;
     align-items: center;
     border: 2px solid black;
@@ -47,9 +51,9 @@
     }
 }
 form{
-    height: 600px;
-    width: 600px;
-    box-shadow: inset -3px -3px rgba(255, 255, 255, 0.1);
+    height: 60vh;
+    width: 25rem;
+    /* box-shadow: inset -3px -3px rgba(255, 255, 255, 0.1); */
     backdrop-filter: blur(50px);
     border-radius: 25px;
     display: flex;
@@ -58,8 +62,9 @@ form{
     justify-content: center;
     font-size: larger;
     position: absolute;
-    right: 25px;
+    right: 4.5rem;
     border: 50px white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 .review{
     height: 600px;
@@ -99,18 +104,24 @@ form{
     width: 400px;
     border: 5px solid black;
     border-radius: 50%;
-    margin: 50px;
+    margin: 3rem;
 }
 .footer{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    width: 100%;
+    height: 100vh;
 }
 #contactus{
-    margin: 50px;
-}
-footer{
-    text-align: center;
+    /* margin: 50px; */
+    width: 50%;
+    height: 90%;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
 }
 input{
     height: 50px;
@@ -123,13 +134,14 @@ input{
     border: 5px solid white;
 }
 a{
-    font-size: 25px;
+    font-size: 1.5rem;
     color: rgb(224, 255, 255);
     text-decoration: none;
-    border-radius: 2rem;
+    /* border-radius: 2rem; */
     text-align: center;
-    
-    
+    padding: .3rem .5rem;
+    border-radius: 5px;
+    transition: all .2s;
 }
 a:hover{
     background-color: blue;
@@ -141,8 +153,10 @@ a:hover{
 }
 #quote{
     position: absolute;
+    width: calc(100% - 74vh);
+    /* border: 1px solid black; */
     left: 25px;
-    font-size: 60px;
+    font-size: 3rem;
     color: rgb(155, 82, 9);
 
 }
