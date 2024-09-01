@@ -75,6 +75,13 @@ form{
     display: flex;
     align-items: center;
     gap: 20px;
+    position: relative;
+}
+#r {
+    position: absolute; /* Position the h1 absolutely within the .review div */
+    top: 10px; /* Adjust this value to position the h1 from the top */
+    left: 50%; /* Center horizontally */
+    transform: translateX(-50%); /* Adjust for horizontal centering */
 }
 .rev1{
     height: 300px;
