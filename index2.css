@@ -96,6 +96,12 @@ form{
     border: 5px solid rgb(255, 255, 255);
     border-radius: 50%;
     margin: 3rem;
+    overflow: hidden;
+}
+.sos img{
+    width: 100%; /* Scale image to fit container width */
+    height: 100%; /* Scale image to fit container height */
+    object-fit: cover; /* Cover the container, maintaining aspect ratio */
 }
 .footer{
     display: flex;
