@@ -5,7 +5,7 @@
 
 }
 .headerF{
-    background-color: #BB2243;
+    background-color: rgb(187, 34, 67);
 }
 .navb{
     height: 3.5rem;
@@ -13,7 +13,6 @@
     align-items: center;
     justify-content: space-between;
     margin: 0 1rem;
-    background-color: #BB2243;
 }
 .navmenu{
     display: flex;
@@ -26,7 +25,7 @@
     height: 80vh;
     display: flex;
     align-items: center;
-    border: 2px solid #000000;
+    border: 2px solid black;
     justify-content: center;
     background-size: cover;
     background-position: center;
@@ -63,7 +62,7 @@ form{
     justify-content: center;
     font-size: larger;
     position: absolute;
-    right: 4.5rem;
+    right: 25px;
     border: 50px white;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
@@ -71,7 +70,7 @@ form{
     height: 600px;
     padding: 10px;
     margin: 10px;
-    border: 2px solid #000000;
+    border: 2px solid black;
     border-radius: 25px; 
     display: flex;
     align-items: center;
@@ -80,14 +79,14 @@ form{
 .rev1{
     height: 300px;
     width: 300px;
-    border: 5px solid #000000;
+    border: 5px solid black;
     border-radius: 50%;
 }
 #aboutus{
     height: 400px;
     margin: 10px;
     padding: 10px;
-    border: 5px solid #000000;
+    border: 5px solid black;
     border-radius: 25px;
     display: flex;
     align-items: center;
@@ -105,24 +104,18 @@ form{
     width: 400px;
     border: 5px solid black;
     border-radius: 50%;
-    margin: 3rem;
+    margin: 50px;
 }
 .footer{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 100%;
-    height: 100vh;
 }
 #contactus{
-    /* margin: 50px; */
-    width: 50%;
-    height: 90%;
-    /* border: 1px solid black; */
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
+    margin: 50px;
+}
+footer{
+    text-align: center;
 }
 input{
     height: 50px;
@@ -130,7 +123,7 @@ input{
     border-radius: 2rem;
     text-align: center;
     font-size: 24px;
-    background-color: #ADFF2F;
+    background-color: greenyellow;
     opacity: 0.5;
     border: 5px solid white;
 }
@@ -145,7 +138,7 @@ a{
     transition: all .2s;
 }
 a:hover{
-    background-color: #0000FF;
+    background-color: blue;
 }
 .rev{
     font-size: 26px;
@@ -158,6 +151,6 @@ a:hover{
     /* border: 1px solid black; */
     left: 25px;
     font-size: 3rem;
-    color: black;
+    color: rgb(155, 82, 9);
 
 }
