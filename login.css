@@ -1,0 +1,27 @@
+.lgf{
+    height: 800px;
+    width: 800px;
+    border: 5px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 25px;
+    gap: 25px;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+label{
+    font-size: xx-large;
+    text-align: center;
+}
+input{
+    height: 50px;
+    width: 300px;
+    border-radius: 25px;
+    text-align: center;
+}
