@@ -13,6 +13,7 @@
     align-items: center;
     justify-content: space-between;
     margin: 0 1rem;
+    background-color: rgb(187, 34, 67);
 }
 .navmenu{
     display: flex;
@@ -122,6 +123,7 @@ form{
     align-items: center;
     justify-content: center;
     position: relative;
+
 }
 input{
     height: 50px;
@@ -132,6 +134,7 @@ input{
     background-color: greenyellow;
     opacity: 0.5;
     border: 5px solid white;
+    color: white;
 }
 a{
     font-size: 1.5rem;
