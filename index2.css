@@ -111,7 +111,7 @@ form{
     width: 400px;
     border: 5px solid black;
     border-radius: 50%;
-    margin: 50px;
+    margin: 3rem;
 }
 .footer{
     display: flex;
@@ -119,7 +119,14 @@ form{
     justify-content: space-between;
 }
 #contactus{
-    margin: 50px;
+    /* margin: 50px; */
+    width: 50%;
+    height: 90%;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
 }
 footer{
     text-align: center;
