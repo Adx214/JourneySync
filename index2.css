@@ -4,7 +4,7 @@
     box-sizing: border-box;
 
 }
-header{
+.headerF{
     background-color: rgb(187, 34, 67);
 }
 .navb{
@@ -157,6 +157,6 @@ a:hover{
     /* border: 1px solid black; */
     left: 25px;
     font-size: 3rem;
-    color:black;
+    color: black;
 
 }
