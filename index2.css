@@ -66,6 +66,7 @@ form{
     border: 50px white;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
+
 .review{
     height: 600px;
     padding: 10px;
@@ -88,8 +89,45 @@ form{
     width: 300px;
     border: 5px solid black;
     border-radius: 50%;
+    overflow: hidden;
+}
+.rev1 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Cover the div while maintaining aspect ratio */
 }
 
+button.prev {
+    left: 10px;
+}
+
+button.next {
+    right: 10px;
+}
+
+button.prev:hover, button.next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+.review-slider {
+    position: relative;
+    width: 400px; /* Adjust the width as needed */
+    margin: 0 auto;
+    overflow: hidden; /* Hides overflowing content */
+    border-radius: 15px;
+    border: 2px solid black;
+}
+
+.review-slide {
+    display: none; /* Hide all slides by default */
+    text-align: center;
+    padding: 20px;
+    background-color: white;
+    border-radius: 15px;
+}
+
+.review-slide.active {
+    display: block; /* Show active slide */
+}
 .sos{
     height: 400px;
     width: 400px;
