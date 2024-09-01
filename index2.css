@@ -5,7 +5,7 @@
 
 }
 .headerF{
-    background-color: rgb(187, 34, 67);
+    background-color: #BB2243;
 }
 .navb{
     height: 3.5rem;
@@ -13,7 +13,6 @@
     align-items: center;
     justify-content: space-between;
     margin: 0 1rem;
-    background-color: rgb(187, 34, 67);
 }
 .navmenu{
     display: flex;
@@ -26,7 +25,7 @@
     height: 80vh;
     display: flex;
     align-items: center;
-    border: 2px solid black;
+    border: 2px solid #000000;
     justify-content: center;
     background-size: cover;
     background-position: center;
@@ -71,7 +70,7 @@ form{
     height: 600px;
     padding: 10px;
     margin: 10px;
-    border: 2px solid black;
+    border: 2px solid #000000;
     border-radius: 25px; 
     display: flex;
     align-items: center;
@@ -80,14 +79,14 @@ form{
 .rev1{
     height: 300px;
     width: 300px;
-    border: 5px solid black;
+    border: 5px solid #000000;
     border-radius: 50%;
 }
 #aboutus{
     height: 400px;
     margin: 10px;
     padding: 10px;
-    border: 5px solid black;
+    border: 5px solid #000000;
     border-radius: 25px;
     display: flex;
     align-items: center;
@@ -123,7 +122,6 @@ form{
     align-items: center;
     justify-content: center;
     position: relative;
-
 }
 input{
     height: 50px;
@@ -131,10 +129,9 @@ input{
     border-radius: 2rem;
     text-align: center;
     font-size: 24px;
-    background-color: greenyellow;
+    background-color: #ADFF2F;
     opacity: 0.5;
     border: 5px solid white;
-    
 }
 a{
     font-size: 1.5rem;
@@ -147,7 +144,7 @@ a{
     transition: all .2s;
 }
 a:hover{
-    background-color: blue;
+    background-color: #0000FF;
 }
 .rev{
     font-size: 26px;
@@ -163,4 +160,3 @@ a:hover{
     color: black;
 
 }
-
