@@ -1,45 +1,58 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
 
 }
-header{
+
+header {
     background-color: #000000;
 }
-.navb{
-    position: fixed; /* Fix the navb to the top of the viewport */
-    top: 0; /* Position it at the top of the viewport */
-    left: 0; /* Align it to the left edge */
-    width: 100%; /* Make it span the full width of the viewport */
+
+.navb {
+    position: fixed;
+    /* Fix the navb to the top of the viewport */
+    top: 0;
+    /* Position it at the top of the viewport */
+    left: 0;
+    /* Align it to the left edge */
+    width: 100%;
+    /* Make it span the full width of the viewport */
     height: 3.5rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 0; /* Remove margin since it's fixed */
-    padding: 0 1rem; /* Keep padding for spacing */
-    background-color: #000000; /* Ensure background color is consistent */
-    z-index: 1000; /* Make sure it's on top of other elements */
+    margin: 0;
+    /* Remove margin since it's fixed */
+    padding: 0 1rem;
+    /* Keep padding for spacing */
+    background-color: #000000;
+    /* Ensure background color is consistent */
+    z-index: 1000;
+    /* Make sure it's on top of other elements */
 }
-.navlog{
+
+.navlog {
     height: 3rem;
     width: 8rem;
     overflow: hidden;
 }
-.navlog img{
+
+.navlog img {
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
-.navmenu{
+
+.navmenu {
     display: flex;
     align-items: center;
     gap: 20px;
-    
+
 }
 
-.crsl{
-    height: 80vh;
+.crsl {
+    min-height: 80vh;
     display: flex;
     align-items: center;
     border: 2px solid black;
@@ -48,26 +61,32 @@ header{
     background-position: center;
     animation: changeBackground 10s infinite alternate;
     transition: background-image 1s ease-in-out;
-    
+
 }
-@keyframes changeBackground{
+
+@keyframes changeBackground {
     0% {
         background-image: url('images.jpg');
     }
+
     25% {
         background-image: url('images1.jpg');
     }
+
     50% {
         background-image: url('images2.jpg');
     }
+
     75% {
         background-image: url('images3.jpg');
     }
+
     100% {
         background-image: url('images4.jpg');
     }
 }
-form{
+
+form {
     height: 60vh;
     width: 25rem;
     /* box-shadow: inset -3px -3px rgba(255, 255, 255, 0.1); */
@@ -84,34 +103,42 @@ form{
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
-.review{
+.review {
     height: 600px;
     padding: 10px;
     margin: 10px;
     border: 2px solid black;
-    border-radius: 25px; 
+    border-radius: 25px;
     display: flex;
     align-items: center;
     gap: 20px;
     position: relative;
 }
+
 #r {
-    position: absolute; /* Position the h1 absolutely within the .review div */
-    top: 10px; /* Adjust this value to position the h1 from the top */
-    left: 50%; /* Center horizontally */
-    transform: translateX(-50%); /* Adjust for horizontal centering */
+    position: absolute;
+    /* Position the h1 absolutely within the .review div */
+    top: 10px;
+    /* Adjust this value to position the h1 from the top */
+    left: 50%;
+    /* Center horizontally */
+    transform: translateX(-50%);
+    /* Adjust for horizontal centering */
 }
-.rev1{
+
+.rev1 {
     height: 300px;
     width: 300px;
     border: 5px solid black;
     border-radius: 50%;
     overflow: hidden;
 }
+
 .rev1 img {
     width: 100%;
     height: 100%;
-    object-fit: cover; /* Cover the div while maintaining aspect ratio */
+    object-fit: cover;
+    /* Cover the div while maintaining aspect ratio */
 }
 
 button.prev {
@@ -122,20 +149,25 @@ button.next {
     right: 10px;
 }
 
-button.prev:hover, button.next:hover {
+button.prev:hover,
+button.next:hover {
     background-color: rgba(0, 0, 0, 0.8);
 }
+
 .review-slider {
     position: relative;
-    width: 400px; /* Adjust the width as needed */
+    width: 400px;
+    /* Adjust the width as needed */
     margin: 0 auto;
-    overflow: hidden; /* Hides overflowing content */
+    overflow: hidden;
+    /* Hides overflowing content */
     border-radius: 15px;
     border: 2px solid black;
 }
 
 .review-slide {
-    display: none; /* Hide all slides by default */
+    display: none;
+    /* Hide all slides by default */
     text-align: center;
     padding: 20px;
     background-color: white;
@@ -143,9 +175,11 @@ button.prev:hover, button.next:hover {
 }
 
 .review-slide.active {
-    display: block; /* Show active slide */
+    display: block;
+    /* Show active slide */
 }
-.sos{
+
+.sos {
     height: 400px;
     width: 400px;
     border: 5px solid rgb(255, 255, 255);
@@ -153,20 +187,26 @@ button.prev:hover, button.next:hover {
     margin: 3rem;
     overflow: hidden;
 }
-.sos img{
-    width: 100%; /* Scale image to fit container width */
-    height: 100%; /* Scale image to fit container height */
-    object-fit: cover; /* Cover the container, maintaining aspect ratio */
+
+.sos img {
+    width: 100%;
+    /* Scale image to fit container width */
+    height: 100%;
+    /* Scale image to fit container height */
+    object-fit: cover;
+    /* Cover the container, maintaining aspect ratio */
 }
-.footer{
+
+.footer {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: #000000;
-    height: 60vh;
-    
+    background-color: #0F0F0F;
+    min-height: 80vh;
+
 }
-#contactus{
+
+#contactus {
     /* margin: 50px; */
     width: 50%;
     height: 90%;
@@ -177,17 +217,21 @@ button.prev:hover, button.next:hover {
     position: relative;
 }
 
-input{
+input {
     height: 50px;
     width: 350px;
-    border-radius: 2rem;
-    text-align: center;
+    border-radius: 10px;
+    /* text-align: center; */
     font-size: 24px;
     background-color: greenyellow;
     opacity: 0.5;
     border: 5px solid white;
+    border: none;
+    outline: none;
+    padding: 0 1rem;
 }
-a{
+
+a {
     font-size: 1.5rem;
     color: rgb(224, 255, 255);
     text-decoration: none;
@@ -197,15 +241,18 @@ a{
     border-radius: 5px;
     transition: all .2s;
 }
-a:hover{
+
+a:hover {
     background-color: blue;
 }
-.rev{
+
+.rev {
     font-size: 26px;
     text-align: center;
     flex: 1;
 }
-#quote{
+
+#quote {
     position: absolute;
     width: calc(100% - 74vh);
     /* border: 1px solid black; */
@@ -214,13 +261,16 @@ a:hover{
     color: rgb(155, 82, 9);
 
 }
-label{
+
+label {
     font-size: 30px;
 }
-#cus label{
+
+#cus label {
     color: #ffffff;
 }
-#cus{
+
+#cus {
     height: 60vh;
     width: 25rem;
     /* box-shadow: inset -3px -3px rgba(255, 255, 255, 0.1); */
@@ -236,11 +286,14 @@ label{
     border: 50px white;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
-#cus input{
+
+#cus input {
     background-color: white;
 }
+
 #flowchart-section {
-    position: relative; /* Allows absolute positioning of children relative to this container */
+    position: relative;
+    /* Allows absolute positioning of children relative to this container */
     text-align: center;
     padding: 2rem;
     background-color: #ffffff;
@@ -249,15 +302,23 @@ label{
 }
 
 .section-title {
-    position: absolute; /* Position the title absolutely within the section */
-    top: 2rem; /* Adjust this value to provide space from the top edge of the section */
-    left: 50%; /* Center it horizontally */
-    transform: translateX(-50%); /* Adjust horizontal centering */
-    font-size: 2.5rem; /* Size adjusted for better visibility */
-    margin: 0; /* Remove default margins */
+    position: absolute;
+    /* Position the title absolutely within the section */
+    top: 2rem;
+    /* Adjust this value to provide space from the top edge of the section */
+    left: 50%;
+    /* Center it horizontally */
+    transform: translateX(-50%);
+    /* Adjust horizontal centering */
+    font-size: 2.5rem;
+    /* Size adjusted for better visibility */
+    margin: 0;
+    /* Remove default margins */
     color: #333;
-    width: 100%; /* Ensure title spans the full width of the section */
-    text-align: center; /* Center align text */
+    width: 100%;
+    /* Ensure title spans the full width of the section */
+    text-align: center;
+    /* Center align text */
 }
 
 .flowchart-container {
@@ -266,18 +327,21 @@ label{
     justify-content: center;
     flex-wrap: wrap;
     gap: 2rem;
-    margin-top: 5rem; /* Adjust space below the title */
+    margin-top: 5rem;
+    /* Adjust space below the title */
 }
 
 .step {
     display: flex;
     align-items: center;
-    padding: 3rem 2rem; /* Increased padding for larger boxes */
+    padding: 3rem 2rem;
+    /* Increased padding for larger boxes */
     background-color: #eaf1ff;
     border-radius: 1rem;
     box-shadow: 0 0.4rem 0.6rem rgba(0, 0, 0, 0.1);
     text-align: center;
-    width: 20rem; /* Increased width for larger boxes */
+    width: 20rem;
+    /* Increased width for larger boxes */
     flex-direction: column;
 }
 
@@ -285,40 +349,140 @@ label{
     background-color: #007bff;
     color: white;
     border-radius: 50%;
-    width: 4rem; /* Increased size for better visibility */
-    height: 4rem; /* Increased size for better visibility */
+    width: 4rem;
+    /* Increased size for better visibility */
+    height: 4rem;
+    /* Increased size for better visibility */
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 2rem; /* Increased font size */
+    font-size: 2rem;
+    /* Increased font size */
     font-weight: bold;
     margin-bottom: 1rem;
 }
 
 .step-content h3 {
     margin: 0;
-    font-size: 1.75rem; /* Slightly larger title font */
+    font-size: 1.75rem;
+    /* Slightly larger title font */
     color: #333;
 }
 
 .step-content p {
-    font-size: 1.1rem; /* Slightly larger description font */
+    font-size: 1.1rem;
+    /* Slightly larger description font */
     color: #666;
     margin-top: 0.5rem;
 }
 
 .arrow {
-    font-size: 2.5rem; /* Slightly larger arrows */
+    font-size: 2.5rem;
+    /* Slightly larger arrows */
     color: #007bff;
     margin: 0 1rem;
 }
 
-@media (max-width: 768px) {
-    .flowchart-container {
-        flex-direction: column;
-    }
+.navicon {
+    display: none;
+}
 
-    .arrow {
-        display: none;
-    }
+.smallSideBar {
+    display: none;
+}
+
+.displayNone {
+    display: none !important;
+}
+
+/* swiper */
+.slider-wrapper {
+    overflow: hidden;
+    max-width: 1200px;
+    margin: 0 70px 55px;
+}
+
+.card-list .card-item {
+    width: 100% !important;
+    height: auto;
+    color: #fff;
+    user-select: none;
+    padding: 35px 3rem;
+    display: flex;
+    gap: 3rem;
+    /* flex-direction: column; */
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    backdrop-filter: blur(30px);
+    background: rgba(255, 255, 255, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.card-list .card-item .user-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 40px;
+    border: 3px solid #fff;
+    padding: 4px;
+}
+
+.card-list .card-item .user-profession {
+    font-size: 1.15rem;
+    color: #e3e3e3;
+    font-weight: 500;
+    margin: 14px 0 40px;
+}
+
+.card-list .card-item .message-button {
+    font-size: 1.25rem;
+    padding: 10px 35px;
+    color: #030728;
+    border-radius: 6px;
+    font-weight: 500;
+    cursor: pointer;
+    background: #fff;
+    border: 1px solid transparent;
+    transition: 0.2s ease;
+}
+
+.card-list .card-item .message-button:hover {
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid #fff;
+    color: #fff;
+}
+
+.slider-wrapper .swiper-pagination-bullet {
+    background: #fff;
+    height: 13px;
+    width: 13px;
+    opacity: 0.5;
+}
+
+.slider-wrapper .swiper-pagination-bullet-active {
+    opacity: 1;
+}
+
+.slider-wrapper .swiper-slide-button {
+    color: #fff;
+    margin-top: -55px;
+    transition: 0.2s ease;
+}
+
+.slider-wrapper .swiper-slide-button:hover {
+    color: #4658ff;
+}
+
+.reviewslider {
+    background-color: #333;
+    padding: 4rem 0;
+    min-height: 50vh;
+}
+
+.reviewsHead{
+    width: 100%;
+    margin: 1rem 0;
+    text-align: center;
+    color: #fff;
 }
